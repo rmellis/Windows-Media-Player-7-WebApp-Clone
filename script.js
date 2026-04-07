@@ -3377,8 +3377,7 @@ window.triggerPopout = function(specificSkin = null) {
         return;
     }
 
-    // Hardcoded to force the popup to use your live domain
-    let baseUrl = "https://wmp.ywa.app/index.htm";
+    let baseUrl = "https://wmp9.ywa.app/index.htm";
 
     const popoutUrl = `${baseUrl}?popout=true&skin=${activeSkin}`;
 
